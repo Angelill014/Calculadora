@@ -68,5 +68,9 @@ public class Program
             else
                 return false;
     }
+    public static operación CrearOperación()
+    {
+        
+    }
 }
 
