@@ -53,7 +53,7 @@ public class Calculadora
           Console.WriteLine("Introduzca el segundo numero");
           numero2 = Int32.Parse(Console.ReadLine());
           resultado = numero1 / numero2;
-          Console.WriteLine(resultado);
+          Console.WriteLine(resultado);  
       }
 
 }
