@@ -3,7 +3,7 @@ using System;
 
 public class Calculadora
 {
-    public void Suma(String[] args)
+    public static void Suma()
     {
        int numero1;
        int numero2;
@@ -16,7 +16,7 @@ public class Calculadora
       Console.WriteLine(resultado);
     }
 
-      public void Resta (String[] args)
+      public static void Resta()
        {
           int numero1;
           int numero2;
@@ -30,7 +30,7 @@ public class Calculadora
 
         }
     
-    public void Multiplicacion (String[] args)
+    public static void Multiplicacion()
     {
        int numero1;
        int numero2;
@@ -43,7 +43,7 @@ public class Calculadora
        Console.WriteLine(resultado);
     }
 
-      public void Division (String[] args)
+      public static void Division()
       {
           int numero1;
           int numero2;
