@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyecto Curso\\Calculadora\\Calculadora.csproj",
+      "projectUniqueName": "C:\\PROYECTOS CURSO 21 22\\Calculadora\\Calculadora.csproj",
       "projectName": "Calculadora",
-      "projectPath": "C:\\Proyecto Curso\\Calculadora\\Calculadora.csproj",
+      "projectPath": "C:\\PROYECTOS CURSO 21 22\\Calculadora\\Calculadora.csproj",
       "packagesPath": "C:\\Users\\Educamosclm\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyecto Curso\\Calculadora\\obj\\",
+      "outputPath": "C:\\PROYECTOS CURSO 21 22\\Calculadora\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
