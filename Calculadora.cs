@@ -3,58 +3,25 @@ using System;
 
 public class Calculadora
 {
-    public static void Suma()
+     static int numero1=0;
+     static int numero2=0;
+    public static int Suma()
     {
-       int numero1;
-       int numero2;
-       int resultado;
-       Console.WriteLine("Introduzca el primer numero");
-      numero1 = Int32.Parse (Console.ReadLine());
-      Console.WriteLine("Introduzca el segundo numero");
-      numero2 = Int32.Parse (Console.ReadLine());
-      resultado = numero1 + numero2;
-      Console.WriteLine(resultado);
+      return numero1+numero2;
+     
     }
-
-      public static void Resta()
-       {
-          int numero1;
-          int numero2;
-          int resultado;
-          Console.WriteLine("Introduzca el primer numero");
-          numero1 = Int32.Parse (Console.ReadLine());
-          Console.WriteLine("Introduzca el segundo numero");
-          numero2 = Int32.Parse(Console.ReadLine());
-          resultado = numero1 - numero2;
-          Console.WriteLine(resultado);
-
-        }
-    
-    public static void Multiplicacion()
+    public static int Resta()
     {
-       int numero1;
-       int numero2;
-       int resultado;
-       Console.WriteLine("Introduzca el primer numero");
-       numero1 = Int32.Parse (Console.ReadLine());
-       Console.WriteLine("Introduzca el segundo numero");
-       numero2 = Int32.Parse(Console.ReadLine());
-       resultado = numero1 * numero2;
-       Console.WriteLine(resultado);
+      return numero1-numero2;
     }
-
-      public static void Division()
-      {
-          int numero1;
-          int numero2;
-          int resultado;
-          Console.WriteLine("Introduzca el primer numero");
-          numero1 = Int32.Parse(Console.ReadLine());
-          Console.WriteLine("Introduzca el segundo numero");
-          numero2 = Int32.Parse(Console.ReadLine());
-          resultado = numero1 / numero2;
-          Console.WriteLine(resultado);  
-      }
-
+    public static int Multiplicacion()
+    {
+      return numero1*numero2;
+    }
+    public static int Division()
+    {
+      return numero1/numero2;
+    }
+  
 }
-    
+
