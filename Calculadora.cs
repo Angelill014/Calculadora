@@ -1,26 +1,36 @@
                                 //14-02-22//
 using System;
 
-public class Calculadora
+public static class Calculadora
 {
-     static int numero1=0;
-     static int numero2=0;
-    public static int Suma()
-    {
-      return numero1+numero2;
      
-    }
-    public static int Resta()
+    
+    public static int Suma(int numero1, int numero2)
     {
-      return numero1-numero2;
+        int resultado;
+        resultado = numero1 + numero2;
+        return resultado;
+      
+        
     }
-    public static int Multiplicacion()
+    public static int Resta(int numero1, int numero2)
     {
-      return numero1*numero2;
+        int resultado;
+        resultado = numero1 - numero2;
+        return resultado;
     }
-    public static int Division()
+    public static int Multiplicacion(int numero1, int numero2)
     {
-      return numero1/numero2;
+        int resultado;
+        resultado = numero1 * numero2;
+        return resultado;
+    }
+    public static int Division(int numero1, int numero2)
+    {
+        int resultado;
+        resultado = numero1 / numero2;
+
+        return resultado;
     }
   
 }
