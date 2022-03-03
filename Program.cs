@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+namespace ProyectoCalculadora
 
-namespace MiCalculadora
 {
    internal class Principal
    {
@@ -29,45 +25,28 @@ namespace MiCalculadora
           Console.WriteLine("3. Multiplicacion");
           Console.WriteLine("4. Division");
           int opcion = Int32.Parse(Console.ReadLine());
-          Calculadora.setNumero1(num1);
 
-         switch (opcion)
-         {
-           case 1:
-           resultado = num1 + num2;
-           Console.WriteLine ("El resultado es: " + Calculadora.Suma ());
-           break;
-         
-           case 2:
-           resultado = num1 - num2;
-           Console.WriteLine ("El resultado es: " + Calculadora.Resta ());
-           break;
 
-           case 3:
-           resultado = num1 * num2;
-           Console.WriteLine ("El resultado es: " + Calculadora.Multiplicacion ());
-           break;
+        switch (opcion)
+        {
+            case 1:
+                Console.WriteLine("Su resultado es" + " " + Calculadora.Suma(num1, num2));
+                break;
 
-           case 4:
-           resultado = num1 / num2;
-           Console.WriteLine ("El resultado es: " + Calculadora.Division ());
-           break;
+            case 2:
+                Console.WriteLine("Su resultado es" + " " + Calculadora.Resta(num1, num2));
+                break;
 
-           default:
-           Console.WriteLine("La cantidad es incorrecta");
-           Console.ReadLine();
-           Console.WriteLine("La cantidad es correcta");
-           break;
-         }
-         Console.ReadLine();
-      }  
-      
-   }
+            case 3:
+                Console.WriteLine("Su resultado es" + " " + Calculadora.Multiplicacion(num1, num2));
+                break;
+
+            case 4:
+                Console.WriteLine("Su resultado es" + " " + Calculadora.Division(num1, num2));
+                break;
+        }
+    }
     
+ }
 }
 
-   
-
-
-    
-      
