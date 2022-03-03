@@ -1,10 +1,16 @@
                                 //14-02-22//
-using System;
+using ProyectoCalculadora;
 
-public static class Calculadora
+public  class Calculadora
 {
-     
-    
+    enum ProyectoCalculadora
+    {
+        Suma,
+        Resta,
+        Multiplicación,
+        División,
+    }
+
     public static int Suma(int numero1, int numero2)
     {
         int resultado;
@@ -33,5 +39,6 @@ public static class Calculadora
         return resultado;
     }
   
+    
 }
 

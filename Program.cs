@@ -1,4 +1,5 @@
 ﻿using System;
+namespace ProyectoCalculadora;
 
 public class Program
 {
@@ -7,6 +8,7 @@ public class Program
         int numero1;
         int numero2;
         int resultado;
+        Calculadora calculadora = new Calculadora();
 
             Console.WriteLine("BIENVENIDO A NUESTRA CALCULADORA");
             Console.WriteLine("--------------------------------");
