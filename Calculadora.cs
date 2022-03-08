@@ -1,14 +1,11 @@
                                 //14-02-22//
-using ProyectoCalculadora;
+using System;
 
 public  class Calculadora
 {
-    enum ProyectoCalculadora
+    public Calculadora()
     {
-        Suma,
-        Resta,
-        Multiplicación,
-        División,
+        
     }
 
     public static int Suma(int numero1, int numero2)
@@ -38,7 +35,5 @@ public  class Calculadora
 
         return resultado;
     }
-  
-    
 }
 
