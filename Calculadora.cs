@@ -11,7 +11,7 @@ public  class Calculadora
         División,
     }
     
-    public static int Suma(int numero1, int numero2)
+    public int Suma(int numero1, int numero2)
     {
         int resultado;
         resultado = numero1 + numero2;
@@ -19,19 +19,19 @@ public  class Calculadora
       
         
     }
-    public static int Resta(int numero1, int numero2)
+    public int Resta(int numero1, int numero2)
     {
         int resultado;
         resultado = numero1 - numero2;
         return resultado;
     }
-    public static int Multiplicacion(int numero1, int numero2)
+    public int Multiplicacion(int numero1, int numero2)
     {
         int resultado;
         resultado = numero1 * numero2;
         return resultado;
     }
-    public static int Division(int numero1, int numero2)
+    public int Division(int numero1, int numero2)
     {
         int resultado;
         resultado = numero1 / numero2;
