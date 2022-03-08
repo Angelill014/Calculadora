@@ -13,6 +13,7 @@ namespace ProyectoCalculadora
           int num1;
           int num2;
           int resultado;
+         
 
           Console.WriteLine("Bienvenido a Nuestra Calculadora");
           Console.WriteLine("--------------------------------");
@@ -45,6 +46,7 @@ namespace ProyectoCalculadora
             case 4:
                 Console.WriteLine("Su resultado es" + " " + Calculadora.Division(num1, num2));
                 break;
+                    Console.WriteLine(Ejecutar);
         }
 
             using (StreamWriter escribir = File.CreateText(hiperenlace))
@@ -52,6 +54,7 @@ namespace ProyectoCalculadora
                 escribir.WriteLine(@" ");
             }
         }
+        
     
    }
 }
