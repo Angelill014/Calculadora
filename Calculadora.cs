@@ -10,7 +10,7 @@ public  class Calculadora
         Multiplicación,
         División,
     }
-
+    
     public static int Suma(int numero1, int numero2)
     {
         int resultado;

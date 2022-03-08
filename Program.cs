@@ -6,12 +6,13 @@ namespace ProyectoCalculadora
    {
 
    
-        public static void Main(String[] args)
+        public static void Main(string[] args)
         {
+          string hiperenlace = @"C:\Console (Carlos)\Proyectos\Calculadora\FicheroCalculadora.txt";
+          Calculadora calculadora = new Calculadora();
           int num1;
           int num2;
           int resultado;
-          Calculadora calculadora = null;
 
           Console.WriteLine("Bienvenido a Nuestra Calculadora");
           Console.WriteLine("--------------------------------");
@@ -45,8 +46,13 @@ namespace ProyectoCalculadora
                 Console.WriteLine("Su resultado es" + " " + Calculadora.Division(num1, num2));
                 break;
         }
-    }
+
+            using (StreamWriter escribir = File.CreateText(hiperenlace))
+            {
+                escribir.WriteLine(@" ");
+            }
+        }
     
- }
+   }
 }
 
