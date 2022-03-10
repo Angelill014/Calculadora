@@ -7,7 +7,7 @@ namespace ProyectoCalculadora
         CalculadoraService calculadoraService = new CalculadoraService();
         public Principal()
         {
-            Console.WriteLine(CalculadoraService.Ejecutar);
+            Console.WriteLine(calculadoraService.Ejecutar);
         }
    
         public static void Main(string[] args)
@@ -24,7 +24,7 @@ namespace ProyectoCalculadora
           num1 = Int32.Parse(Console.ReadLine());
           Console.WriteLine("Introduzca el segundo numero");
           num2 = Int32.Parse(Console.ReadLine());
-          Console.WriteLine("Seleccione una opcion de calculo");
+          Console.WriteLine("Seleccione una opción de cálculo");
           Console.WriteLine("1. Suma");
           Console.WriteLine("2. Resta");
           Console.WriteLine("3. Multiplicacion");
