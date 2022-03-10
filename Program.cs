@@ -4,11 +4,14 @@ namespace ProyectoCalculadora
 {
    internal class Principal
    {
-
+        CalculadoraService calculadoraService = new CalculadoraService();
+        public Principal()
+        {
+            Console.WriteLine(CalculadoraService.Ejecutar);
+        }
    
         public static void Main(string[] args)
         {
-          string hiperenlace = @"C:\Console (Carlos)\Proyectos\Calculadora\FicheroCalculadora.txt";
           Calculadora calculadora = new Calculadora();
           int num1;
           int num2;
@@ -46,13 +49,10 @@ namespace ProyectoCalculadora
             case 4:
                 Console.WriteLine("Su resultado es" + " " + Calculadora.Division(num1, num2));
                 break;
-                    Console.WriteLine(Ejecutar);
+                    
         }
 
-            using (StreamWriter escribir = File.CreateText(hiperenlace))
-            {
-                escribir.WriteLine(@" ");
-            }
+           
         }
         
     
