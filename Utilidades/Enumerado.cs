@@ -1,4 +1,5 @@
-namespace Utilidades;
+namespace Utilidades
+{
     public enum Opciones
     {
         Suma,
@@ -7,3 +8,5 @@ namespace Utilidades;
         Division,
         Salir,
     }
+}
+    
