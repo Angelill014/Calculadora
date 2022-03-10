@@ -1,4 +1,4 @@
-
+namespace Utilidades;
     public enum Opciones
     {
         Suma,

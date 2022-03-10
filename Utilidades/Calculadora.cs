@@ -1,6 +1,8 @@
                                 //14-02-22//
 using System;
 
+namespace Utilidades;
+
 public  class Calculadora
 {
     public Calculadora()
