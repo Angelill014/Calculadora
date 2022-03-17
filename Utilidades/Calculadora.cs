@@ -46,6 +46,12 @@ namespace Utilidades
             resultado = numero1 / numero2;
             return resultado;
         }
-    }
+       public int Potencia(int numero1, int numero2)
+        {
+            int resultado;
+            resultado = Math.Pow(numero1, numero2);
+            Console.WriteLine(resultado);
+        }
+    } 
 }
 
