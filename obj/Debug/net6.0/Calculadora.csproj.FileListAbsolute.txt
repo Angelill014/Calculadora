@@ -3,3 +3,18 @@ C:\PROYECTOS CURSO 21 22\Calculadora\obj\Debug\net6.0\Calculadora.GeneratedMSBui
 C:\PROYECTOS CURSO 21 22\Calculadora\obj\Debug\net6.0\Calculadora.AssemblyInfoInputs.cache
 C:\PROYECTOS CURSO 21 22\Calculadora\obj\Debug\net6.0\Calculadora.AssemblyInfo.cs
 C:\PROYECTOS CURSO 21 22\Calculadora\obj\Debug\net6.0\Calculadora.csproj.CoreCompileInputs.cache
+C:\Console (Carlos)\Proyectos\Calculadora\bin\Debug\net6.0\Calculadora.exe
+C:\Console (Carlos)\Proyectos\Calculadora\bin\Debug\net6.0\Calculadora.deps.json
+C:\Console (Carlos)\Proyectos\Calculadora\bin\Debug\net6.0\Calculadora.runtimeconfig.json
+C:\Console (Carlos)\Proyectos\Calculadora\bin\Debug\net6.0\Calculadora.dll
+C:\Console (Carlos)\Proyectos\Calculadora\bin\Debug\net6.0\ref\Calculadora.dll
+C:\Console (Carlos)\Proyectos\Calculadora\bin\Debug\net6.0\Calculadora.pdb
+C:\Console (Carlos)\Proyectos\Calculadora\obj\Debug\net6.0\Calculadora.csproj.AssemblyReference.cache
+C:\Console (Carlos)\Proyectos\Calculadora\obj\Debug\net6.0\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Console (Carlos)\Proyectos\Calculadora\obj\Debug\net6.0\Calculadora.AssemblyInfoInputs.cache
+C:\Console (Carlos)\Proyectos\Calculadora\obj\Debug\net6.0\Calculadora.AssemblyInfo.cs
+C:\Console (Carlos)\Proyectos\Calculadora\obj\Debug\net6.0\Calculadora.csproj.CoreCompileInputs.cache
+C:\Console (Carlos)\Proyectos\Calculadora\obj\Debug\net6.0\Calculadora.dll
+C:\Console (Carlos)\Proyectos\Calculadora\obj\Debug\net6.0\ref\Calculadora.dll
+C:\Console (Carlos)\Proyectos\Calculadora\obj\Debug\net6.0\Calculadora.pdb
+C:\Console (Carlos)\Proyectos\Calculadora\obj\Debug\net6.0\Calculadora.genruntimeconfig.cache
