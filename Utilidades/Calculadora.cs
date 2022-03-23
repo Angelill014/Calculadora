@@ -8,10 +8,10 @@ namespace Utilidades
         
         public Calculadora()
         {
-        
+            
         }
 
-        List<string> firstlist = new List<string> ()
+        public List<string> Operaciones = new List<string> ()
         {
             "Suma",
             "Resta",
@@ -20,7 +20,7 @@ namespace Utilidades
         };
 
         List<string> calculadora = new List<string>();
-        calculadora.Add(InvalidTimeZoneException )
+        calculadora.Add(InvalidTimeZoneException)
     
         public int Suma(int numero1, int numero2)
         {
