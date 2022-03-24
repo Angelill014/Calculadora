@@ -5979,11 +5979,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Console (Carlos)\\Proyectos\\Calculadora\\TestProject1\\TestProject1.csproj",
-      "projectName": "TestProject1",
-      "projectPath": "C:\\Console (Carlos)\\Proyectos\\Calculadora\\TestProject1\\TestProject1.csproj",
+      "projectUniqueName": "C:\\Console (Carlos)\\Proyectos\\Calculadora\\CalculadoraTest\\CalculadoraTest.csproj",
+      "projectName": "CalculadoraTest",
+      "projectPath": "C:\\Console (Carlos)\\Proyectos\\Calculadora\\CalculadoraTest\\CalculadoraTest.csproj",
       "packagesPath": "C:\\Users\\Educamosclm\\.nuget\\packages\\",
-      "outputPath": "C:\\Console (Carlos)\\Proyectos\\Calculadora\\TestProject1\\obj\\",
+      "outputPath": "C:\\Console (Carlos)\\Proyectos\\Calculadora\\CalculadoraTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

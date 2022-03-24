@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ReGMHghEvkrEgEl7cyawj8BF6lZLP4k29vG7fWwPzD0jBki92Abex7/WzA5xtlnMbAdKLqjA/avMNdnKIKXMCA==",
+  "dgSpecHash": "DI+da9VAl1vPBRoZpsZ4+i5wVe329F8eRELF0syEPxWJhm8/lpbAuh/ebwtG559E1Eh1HBRnwJLX2h5ZcrjQeA==",
   "success": true,
-  "projectFilePath": "C:\\Console (Carlos)\\Proyectos\\Calculadora\\TestProject1\\TestProject1.csproj",
+  "projectFilePath": "C:\\Console (Carlos)\\Proyectos\\Calculadora\\CalculadoraTest\\CalculadoraTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Educamosclm\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Educamosclm\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
