@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PROYECTOS CURSO 21 22\\Calculadora\\Calculadora.csproj",
+      "projectUniqueName": "C:\\Console (Carlos)\\Proyectos\\Calculadora\\Calculadora\\Calculadora.csproj",
       "projectName": "Calculadora",
-      "projectPath": "C:\\PROYECTOS CURSO 21 22\\Calculadora\\Calculadora.csproj",
+      "projectPath": "C:\\Console (Carlos)\\Proyectos\\Calculadora\\Calculadora\\Calculadora.csproj",
       "packagesPath": "C:\\Users\\Educamosclm\\.nuget\\packages\\",
-      "outputPath": "C:\\PROYECTOS CURSO 21 22\\Calculadora\\obj\\",
+      "outputPath": "C:\\Console (Carlos)\\Proyectos\\Calculadora\\Calculadora\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
