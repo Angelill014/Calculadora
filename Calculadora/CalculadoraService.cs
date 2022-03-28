@@ -2,7 +2,7 @@
  
     internal class CalculadoraService
     {
-        
+ 
         public  void Ejecutar()
         {
             int num1;
@@ -26,19 +26,19 @@
             switch (opcion)
             {
                 case 1:
-                    Console.WriteLine("Su resultado es" + " " + Calculadora.Suma(num1, num2));
+                    Console.WriteLine("Su resultado es" + " " + CalculadoraService.Suma(num1, num2));
                     break;
 
                 case 2:
-                    Console.WriteLine("Su resultado es" + " " + Calculadora.Resta(num1, num2));
+                    Console.WriteLine("Su resultado es" + " " + CalculadoraService.Resta(num1, num2));
                     break;
 
                 case 3:
-                    Console.WriteLine("Su resultado es" + " " + Calculadora.Multiplicacion(num1, num2));
+                    Console.WriteLine("Su resultado es" + " " + CalculadoraService.Multiplicacion(num1, num2));
                     break;
 
                 case 4:
-                    Console.WriteLine("Su resultado es" + " " + Calculadora.Division(num1, num2));
+                    Console.WriteLine("Su resultado es" + " " + CalculadoraService.Division(num1, num2));
                     break;
 
             }
