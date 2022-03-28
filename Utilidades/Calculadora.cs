@@ -8,49 +8,44 @@ namespace Utilidades
         
         public Calculadora()
         {
-            
+            Operaciones = new List<string>();
         }
 
-        public List<string> Operaciones = new List<string> ()
-        {
-            "Suma",
-            "Resta",
-            "Multiplicacion",
-            "Division"
-        };
-
-        List<string> calculadora = new List<string>();
-        calculadora.Add(InvalidTimeZoneException)
-    
+        public List<string> Operaciones {get; set;}
+        
         public int Suma(int numero1, int numero2)
         {
             int resultado;
             resultado = numero1 + numero2;
+            Operaciones.Add("Suma" + (numero1 + numero2) + "El resultado es" );
             return resultado;
         }
         public int Resta(int numero1, int numero2)
         {
             int resultado;
             resultado = numero1 - numero2;
+            Operaciones.Add("Resta" + (numero1 - numero2) + "El resultado es" );
             return resultado;
         }
         public int Multiplicacion(int numero1, int numero2)
         {
             int resultado;
             resultado = numero1 * numero2;
+            Operaciones.Add("Multiplicacion" + (numero1 * numero2) + "El resultado es" );
             return resultado;
         }
         public int Division(int numero1, int numero2)
         {
             int resultado;
             resultado = numero1 / numero2;
+            Operaciones.Add("Division" + (numero1 / numero2) + "El resultado es" );
             return resultado;
         }
-       public int Potencia(int numero1, int numero2)
+       public double Potencia(int numero1, int numero2)
         {
-            int resultado;
+            double resultado;
             resultado = Math.Pow(numero1, numero2);
-            Console.WriteLine(resultado);
+             return resultado;
         }
     } 
 }
