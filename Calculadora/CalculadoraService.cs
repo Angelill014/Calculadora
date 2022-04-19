@@ -1,8 +1,13 @@
 ﻿using System;
- 
-    internal class CalculadoraService
+using Utilidades;
+
+internal class CalculadoraService
     {
- 
+        public Calculadora MiCalculadora { get; set; }
+        public CalculadoraService()
+        {
+            MiCalculadora = new Calculadora();
+        }
         public  void Ejecutar()
         {
             int num1;
@@ -26,25 +31,23 @@
             switch (opcion)
             {
                 case 1:
-                    Console.WriteLine("Su resultado es" + " " + CalculadoraService.Suma(num1, num2));
+                   MiCalculadora.Suma(num1, num2);
                     break;
 
                 case 2:
-                    Console.WriteLine("Su resultado es" + " " + CalculadoraService.Resta(num1, num2));
+                    MiCalculadora.Resta(num1, num2);
                     break;
 
                 case 3:
-                    Console.WriteLine("Su resultado es" + " " + CalculadoraService.Multiplicacion(num1, num2));
+                    MiCalculadora.Multiplicacion(num1, num2);
                     break;
 
                 case 4:
-                    Console.WriteLine("Su resultado es" + " " + CalculadoraService.Division(num1, num2));
+                    MiCalculadora.Division(num1, num2);
                     break;
 
             }
-    }
-
-        
+        }
     }
      
 
